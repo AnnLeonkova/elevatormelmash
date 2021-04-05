@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/normaliz.css">
+   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+   <link rel="stylesheet" href="css/jquery.formValid.css">
+   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+   <link rel="stylesheet" href="css/style.css">
+
+   <title>Элеватормельмаш</title>
+</head>
+
+
+<body>
+   <header class="header">
+      <div class="container container_header">
+
+
+         <div class="header-nav menu">
+            <div class="burger icon">
+               <span></span>
+               <span></span>
+               <span></span>
+               <span></span>
+            </div>
+
+            <div class="header-logo">
+               <a href="" class="logo">
+                  <img src="img/logo/Логотип_1.png" alt="логотип сайта Элеватормельмаш"></a>
+            </div>
+            <div class="header-menu">
+               <nav class="header-nav-info">
+                  <ul class="header-nav__list links montserrat-16 menu links">
+                     <li class="header-nav__list_item menu-item ">
+                        <a href="" class="header__nav-list-link">О компании</a>
+                     </li>
+                     <li class="header-nav__list_item menu-item">
+                        <a href="" class="header__nav-list-link">Вакансии</a>
+                     </li>
+                     <li class="header-nav__list_item menu-item">
+                        <a href="" class="header__nav-list-link">Новости</a>
+                     </li>
+
+                     <li class="header-nav__list_item menu-item">
+                        <a href="" class="header__nav-list-link">Контакты</a>
+                     </li>
+                  </ul>
+
+                  <div class="header-lang">
+                     <div class="header-lang__box">
+                        <a href="" class="header-lang__btn">Ru</a>
+                        <a href="" class="header-lang__btn">En</a>
+
+                     </div>
+
+                     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+                     <select class="select" name="language">
+                        <option disabled class="select-item">Выбор языка </option>
+                        <option value="Русский">Русский</option>
+                        <option value="JavaScript">English</option>
+                        <option value="PHP">French</option>
+                     </select>
+
+                  </div>
+               </nav>
+               <div class="header-contact">
+                  <div class="header-time">пн-пт 8:00-17:00, перерыв 12:00-13:00, сб-вс: выходной</div>
+                  <a href="mailto:sale@semm.ru" class="header-email montserrat-20">sale@semm.ru</a>
+                  <div class="header-tel montserrat-20 "><a href="tel:8(86138)6-34-03">8(86138) 6-34-03,</a> <a href="tel:8(86138)6-34-06">6-34-06</a></div>
+
+               </div>
+            </div>
+         </div>
+      </div>
+   </header>
+   <!--/header-->
+
+   <section class="hero inside-page__header">
+
+      <div class="container">
+         <div class="hero-nav  ">
+            <ul class="hero-menu montserrat-20-white">
+               <li class="hero-menu__list"><a href="#">. . .</a></li>
+               <li class="hero-menu__list"><a href="#">Каталог продукции</a></li>
+               <li class="hero-menu__list"><a href="#">Элеваторное оборудование</a></li>
+               <li class="hero-menu__list"><a href="#">Котлы</a></li>
+               <li class="hero-menu__list"><a href="#">Металлоконструкции</a></li>
+               <li class="hero-menu__list"><a href="#">Услуги</a></li>
+            </ul>
+
+         </div>
+
+      </div>
+
+
+   </section>
+
+
+   <section class="inside-page-nav">
+      <div class="container">
+         <div class="hero-nav inside-page-nav_menu ">
+            <ul class="hero-menu ">
+               <li class="hero-menu__list"><a href="#">Главная</a></li>
+               <li class="hero-menu__list"><a href="#">Каталог продукции</a></li>
+               <li class="hero-menu__list"><a href="#">Элеваторное оборудование</a></li>
+               <li class="hero-menu__list"><a href="#">Автомобилегрузчики</a></li>
+               <li class="hero-menu__list"><a href="#">Автомобилеразгрузчик У15-УРАГ</a></li>
+
+            </ul>
+         </div>
+      </div>
+   </section>
+
+   <section class="about">
+      <div class="container">
+         <h2 class="title-h2"> Автомобилеразгрузчик У15-УРАГ</h2>
+         <p class="subtitle-h2 montserrat-18">
+            АО "Элеватормельмаш" г. Кропоткин на протяжении 75 лет является крупнейшим поставщиком продукции для агропромышленного комплекса России и ближнего зарубежья.
+            Предприятие выпускает большой спектр оборудования в которые входит: элеваторное оборудование, промышленные котлы, бетоносмесители, металлоконструкции и металлические формы для свай.
+
+            Собственное конструкторское бюро позволяет разрабатывать новую, а так же регулярно улучшать и модернизировать существующую продукцию.</p>
+      </div>
+      <!-- /about -->
+   </section>
+
+
+
+   <section class="contact-form">
+      <div class="container">
+         <h3 class="title-h3 contact-form_title">Свяжитесь с нами</h3>
+
+         <form class="form" id="form"  enctype="multipart/form-data" method="post"  onsubmit="send(event, 'send.php')">
+
+            <div class="row">
+               <div class="form__box">
+                  <div class="valid-message"></div>
+                  <input required type="text" id="name" name="name" placeholder="Имя" class="form__input " aria-label="графа" data-validate-field="name" data-field="name">
+               </div>
+            </div>
+
+            <div class="row">
+               <div class="form__box">
+                  <div class="valid-message"></div>
+                  <input required type='tel' id="phone" name="phone" placeholder="+7(___) ___-__-__" class="form__input" aria-label=" введите телефон" data-validate-field="phone" data-field="phone" data-validate-rules="phone">
+               </div>
+            </div>
+
+            <div class="row">
+               <div class="form__box">
+                  <div class="valid-message"></div>
+                  <input required type="email" id="email" name="email" placeholder="E-mail" class="form__input" aria-label=" введите e-mail" data-validate-field="email" data-field="email">
+               </div>
+            </div>
+
+            <div class="valid-message"></div>
+            <textarea name="text" id="message" placeholder="Ваш запрос" class="form__input" data-validate-field="message" data-field="message" cols="10" rows="3"></textarea>
+
+            <div class="form-contact-btn">
+               <div class="form__subtitle montserrat-16">Нажимая на кнопку вы даете согласие на обработку персональных данных</div>
+               <input  class="form-contact__btn_size btn-white"   value="Отправить" type="submit" aria-label="отправить заявку на консультацию" tabindex="0">
+            </div>
+         </form>
+      </div>
+      <!-- /contact-form -->
+   </section>
+   <footer class="footer">
+      <div class="container">
+         <div class="footer-menu">
+            <div class="footer__logo">
+               <a href="" class="logo">
+                  <img src="img/logo/Логотип_1.png" alt="логотип сайта Элеватормельмаш"></a>
+            </div>
+            <ul class="footer-menu__list montserrat-16">
+               <li class="footer-menu__item"><a href="#">O компании</a></li>
+               <li class="footer-menu__item"><a href="#">Каталог продукции</a></li>
+               <li class="footer-menu__item"><a href="#">Услуги</a></li>
+               <li class="footer-menu__item"><a href="#">Вакансии</a></li>
+               <li class="footer-menu__item"><a href="#">Новости</a></li>
+               <li class="footer-menu__item"><a href="#">Контакты</a></li>
+            </ul>
+            <ul class="footer-menu__list">
+               <li class="footer-menu__item"><a href="#">Элеварное оборудование</a></li>
+               <li class="footer-menu__item"><a href="#">Котлы</a></li>
+               <li class="footer-menu__item"><a href="#">Металлоконструкции</a></li>
+               <li class="footer-menu__item"><a href="#">Запчасти на элеваторное оборудование</a></li>
+               <li class="footer-menu__item"><a href="#">Трубы дымовые</a></li>
+               <li class="footer-menu__item"><a href="#">Водонапорные бвшни</a></li>
+            </ul>
+            <ul class="footer-menu__list">
+               <li class="footer-menu__item"><a href="#">Котел-утилизатор</a></li>
+               <li class="footer-menu__item"><a href="#">Скреперный транспортер для уборки навоза</a></li>
+               <li class="footer-menu__item"><a href="#">Планетарный бетоносмеситель</a></li>
+               <li class="footer-menu__item"><a href="#">Подьемники</a></li>
+               <li class="footer-menu__item"><a href="#">Тележки</a></li>
+               <li class="footer-menu__item"><a href="#">Неликвиды</a></li>
+            </ul>
+            <!-- /footer-menu -->
+         </div>
+
+         <div class="footer-contact">
+            <div class="footer-contact__box">
+               <div class="footer-contact__icon-1"></div>
+               <p class="footer-contact__info">
+                  Адрес: 352382, Краснодарский край, г. Кропоткин, ул. Пушкина, 79
+               </p>
+            </div>
+
+            <div class="footer-contact__box">
+               <div class="footer-contact__icon-2"></div>
+               <p class="footer-contact__info">
+                  Тел./Факс: <a href="tel:8(86138)6-34-03">8(86138) 6-34-03,</a> <a href="tel:8(86138)6-34-06">6-34-06</a>
+                  E-mail:<a href="malto:sale@semm.ru">sale@semm.ru</a>
+               </p>
+            </div>
+
+            <div class="footer-contact__box">
+               <div class="footer-contact__icon-3"></div>
+               <p class="footer-contact__info">
+                  Режим работы: пн-пт 8:00-17:00, перерыв 12:00-13:00, сб-вс: выходной
+               </p>
+            </div>
+            <!-- /footer-contact -->
+         </div>
+      </div>
+   </footer>
+
+   <section class="copyright">
+      <h6 class="container copyright-box">
+         <a href="#">© АО "Элеватормельмаш" 2014 г.</a>
+         <a href="#">Разработка и маркетинг - WebCanape
+         </a>
+         <a href="#">Политика конфиденциальности</a>
+      </h6>
+   </section>
+
+   <script src="js/prefixfree.min.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+   <script src="js/jquery.maskedinput.min.js"></script>
+   <script src="js/just-validate.min.js"></script>
+   <script src="js/jquery.formValid.js"></script>
+   <script src="index.js"></script>
+</body>
+
+</html>
